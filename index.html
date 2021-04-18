@@ -11,15 +11,18 @@
     <link rel="stylesheet" href="styles.css" />
      <!-- My JS-->
     <script src="myjs.js" async></script>
+
+    <!-- Favicon -->
+		<link rel="icon" href="ressources/favicon.ico" type="image/x-icon">
 </head>
-<body id="but">
+<body id="presentation">
     <!--Debut de la nav-->
         <nav>
-            <a href="#but">Notre but</a>	
+            <a href="#presentation">Présentation</a>	
             <a href="#membres">Membres</a>
             <a href="#releve">La Relève</a>
-            <a href="#alcool">Alcool</a>
-            <a href="#contacts">Contacts</a>
+            <a href="#alcool"><span id="flou"> Alcool</span></a>
+            <a href="#adhesion">Adhésion</a>
         </nav>
     <!--Fin de la nav-->
 
@@ -27,7 +30,7 @@
         <header><!-- Div liée au lien du menu + peu servir de cadre et englobe tout le contenu-->
             <div class="droite">
                 <img id="logo"  src="ressources/logo1.png" alt="logo de l'association Les vikings bourrés" />
-                <h1>Le but de notre association</h1>
+                <h1><span id="asso">Association</span>  <br> <span id="vikings">"Les Vikings Bourrés"</span> </h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aliquam, quas ipsum ducimus nemo sapiente veniam exercitationem architecto fuga perspiciatis amet aspernatur labore obcaecati dolorem illo voluptatum deserunt, vero aperiam!
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque rem officiis unde. Corrupti eius eos incidunt? Ab quibusdam, in perferendis officia eligendi mollitia placeat praesentium culpa voluptatem. <br>
@@ -43,7 +46,7 @@
     <!-- Debut de la liste "Membres" -->
         <div id="membres"> <!-- Div liée au lien du menu + peu servir de cadre et englobe tout le contenu-->
             <img id="logo"  src="ressources/logo1.png" alt="logo de l'association Les vikings bourrés" />
-            <h1 >Les membres de l'association "Les vikings bourrés"</h1>
+            <h1 >Les membres</h1>
                 
                 <ul>
                     <li id="membre1">
@@ -104,18 +107,11 @@
         <h1 >La relève</h1>
 
         <div id="photos">
-            <div >
-                <h3 >La releve 1</h3>		
-                <img src="ressources/releve1.jpg" alt="Releve1" />
-            </div>
-            <div >
-                <h3 >La releve 2</h3>		
-                <img src="ressources/releve2.jpg" alt="Releve2" />
-            </div>
-            <div>
-                <h3 >La releve 3</h3>		
-                <img src="ressources/releve3.jpg" alt="Releve3" />
-            </div>
+                <img src="ressources/releve5.jpg" alt="Releve1" />
+                        
+                <img src="ressources/releve3.jpg" alt="Releve2" />
+                    
+                <img src="ressources/releve2.jpg" alt="Releve3" />
         </div>
     </div>
     <!--Fin du contenu "La relève"-->
@@ -136,28 +132,28 @@
     <!-- Fin du contenu "alcool"-->
 
     <!-- Debut du contenu "contacts" -->
-        <div id="contacts"> <!-- Div liée au lien du menu + peu servir de cadre et englobe tout le contenu-->
+        <div id="adhesion"> <!-- Div liée au lien du menu + peu servir de cadre et englobe tout le contenu-->
             <div class="droite">
                 <img id="logo"  src="ressources/logo1.png" alt="logo de l'association Les vikings bourrés" />
                 <h1 >Contacts</h1>
                 <form>
                     <div>
-                        <label for="nom">Nom</label>
+                        <label for="nom">Nom:</label>
                         <input type="text" id="nom" name="nom" placeholder="Votre nom" required />
                     </div>
                     
                     <div>
-                        <label for="prenom">Prénom</label>
+                        <label for="prenom">Prénom:</label>
                         <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required />
                     </div>
                     
                     <div>
-                        <label for="mail">Adresse mail</label>
+                        <label for="mail">Adresse mail:</label>
                         <input type="email" id="mail" name="mail" placeholder="Votre email" />
                     </div>
                     
                     <div>
-                        <label for="age">Age</label>
+                        <label for="age">Age:</label>
                         <input type="number" id="age" name="age" placeholder="Votre âge" min="0" />
                     </div>
 
@@ -170,9 +166,21 @@
                             <option value="3">Plus de deux</option>
                         </select>
                     </div>
+
+                    <div>
+                        <label>Aimez-vous les vikings?</label>
+                        <label class="ouiNon"><input type="radio" name="abonné" value="oui" required />Oui</label>
+                        <label class="ouiNon"><input type="radio" name="abonné" value="non" />Non</label>
+                    </div>
+
+                    <div>
+                        <label>Aimez-vous l'alcool?</label>
+                        <label class="ouiNon"><input type="radio" name="abonné" value="oui" required />Oui</label>
+                        <label class="ouiNon"><input type="radio" name="abonné" value="non" />Non</label>
+                    </div>
                                     
                     <div>
-                        <label for="comments">Comment avez-vous connu notre association</label>
+                        <label for="comments">Comment avez-vous connu l'association?</label>
                         <textarea id="comments" name="comments" placeholder="Vos commentaires ici"></textarea>
                     </div>
                                 
