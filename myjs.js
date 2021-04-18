@@ -21,9 +21,9 @@ send.addEventListener("click", e =>{
 
     if (nbEnfants === "0") {
         kids = "aucun enfant"
-    } else if(nbEnfants.value === "1"){
+    } else if(nbEnfants === "1"){
         kids = "un enfant"
-    } else if(nbEnfants.value === "2"){
+    } else if(nbEnfants === "2"){
         kids = "deux enfants"
     } else {
         kids = "plus de deux enfants"
@@ -62,7 +62,4 @@ send.addEventListener("click", e =>{
         + alcLove + "\n"
         + "Commentaire: " + comments);
     }
-
-
-    
 });
