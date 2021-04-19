@@ -1,8 +1,6 @@
 let send = document.querySelector("#envoyer");
 let btn = document.querySelector("button");
-let divP = document.querySelector("#divP");
-let newP = document.createElement("p");
-let newP2 = document.createElement("p");
+let nomDeViking;
 
 //tableau nom (H && F)
 let vikingNameH = ["Gulli Reinnsson", "Bjorgulf Fastulfsson", "Koll Hjalkarsson", "Gunnvid Åsmundsson", "Thorgest Anundsson", "Sigemær Reinnsson", "Hrolf Ævarsson", "Sighadd Reinnsson", "Hreitharr Karsson", "Gærrar Øystensson"];
@@ -11,7 +9,6 @@ let vikingNameF = ["Asa Leidolfdottir", "Thorunn Iricdottir", "Sigvor Øystendot
 let vikingNickH = ["le loup", "l'ogre", "le boucher", "le doux", "le sauvage", "le fort", "le taureau", "le calme", "le timide", "le fou"];
 let vikingNickF = ["la voleuse", "la juste", "l'éclair", "la tueuse", "la belle", "l'ourse", "la reine", "la flèche", "la brute", "le serpent"];
 
-let nomDeViking;
 
 //Réponse au formulaire
 send.addEventListener("click", e =>{
@@ -24,7 +21,6 @@ send.addEventListener("click", e =>{
     let sAlcLove = document.querySelector("input[name = aimeAlcool]:checked");
     let sComments = document.querySelector("#comments");
     
-    
     let lastName = sLastName.value;
     let firstName = sFirstName.value;
     let age = sAge.value;
@@ -33,6 +29,9 @@ send.addEventListener("click", e =>{
     let vikingLove = sLove.value;
     let alcoolLove = sAlcLove.value;
     let sexe = sSex.value;
+    // random pour le générateur de nom
+    let rdm = Math.floor(Math.random()*10);
+    let rdm2 = Math.floor(Math.random()*10);
 
     // Gestion de champs non renseignés du formulaire
     if(age == ""){
@@ -46,9 +45,6 @@ send.addEventListener("click", e =>{
     }
 
     //Bouton radios
-
-    let rdm = Math.floor(Math.random()*10);
-    let rdm2 = Math.floor(Math.random()*10);
 
     if(sexe === "oui"){
         sex = "masculin"
@@ -70,8 +66,6 @@ send.addEventListener("click", e =>{
         alcLove = "N'aime pas l'alcool"
     }
 
-    
-
     //alert avec les champs du formulaire
     if(lastName != "" && firstName != ""){
         alert("Information renseignées :" + "\n"
@@ -84,17 +78,7 @@ send.addEventListener("click", e =>{
             + alcLove + "\n"
             + "Commentaire: " + comments + "\n"
             + "Votre nouveau nom viking est: " + nomDeViking
-        )};
-
-    // générateur de nom + surnom (Homme et femme);
-    
-    
-
-    //newP.textContent = vikingNameH[rdm] + " dit " + vikingNickH[rdm2];
-    
-    //newP.textContent = vikingNameF[rdm] + " dit " + vikingNickF[rdm2];
-
-    
+        )};    
 });
 
 
