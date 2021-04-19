@@ -132,11 +132,11 @@ li{
 	list-style-type:none;
 	height: 350px;
 	color: black;
-	background-color:#CA953E ;
 	font-size:80px;
 	width: 20%;
 	border: 5px solid black;
 	border-radius: 20px;
+	box-shadow: 5px 5px 5px;
 	margin: 50px auto;
 	padding-top: 200px;
 }
