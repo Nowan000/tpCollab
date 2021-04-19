@@ -182,6 +182,12 @@ ul{
 	background: url(ressources/membre12.jfif) center;
 }
 
+.rouge{
+	text-shadow: 5px 5px 5px grey ;
+	color: rgb(175, 35, 35);
+	font-weight: bold;
+}
+
 /* La relève */
 
 #releve{
@@ -251,6 +257,10 @@ form input, textarea, select{
 	text-align: center;
 	outline:none; 
 	font-size: 25px;
+}
+
+textarea {
+	width: 90%;
 }
 
 label{
