@@ -5,269 +5,282 @@
 
 /* Général */
 
-html,body{
+html,
+body {
 	margin: 0;
-	padding:0;
+	padding: 0;
 	width: 100%;
 }
 
-html{
-	scroll-behavior:smooth;
+html {
+	scroll-behavior: smooth;
 }
 
-body{
-	text-align:center;
+body {
+	text-align: center;
 	font-size: 18px;
-    background-color: black;
-    font-family: 'Montserrat', serif;
+	background-color: black;
+	font-family: 'Montserrat', serif;
 }
 
-h1{
-    margin: 20px auto;
-    color: rgb(175, 35, 35);
+h1 {
+	margin: 20px auto;
+	color: rgb(175, 35, 35);
 	background-color: #a7a7a7;
-    font-family: 'Skranji', serif;
-    border: 2px solid white ;
-    padding: 10px;
-    width: 800px;
+	font-family: 'Skranji', serif;
+	border: 2px solid white;
+	padding: 10px;
+	width: 800px;
 }
 
-#logo{
+#logo {
 	width: 200px;
 }
-p , label {
-    color: white;
-	  
+
+p,
+label {
+	color: white;
 }
+
 
 /* Navigation */
 
-
 nav {
-    /* background-color: white; */
-    z-index: 1000;
-    position: static;
-    right: 0;
-    left: 0;
-    /* border: 2px solid white; */
-    padding-top: 10px;
+	/* background-color: white; */
+	z-index: 1000;
+	position: static;
+	right: 0;
+	left: 0;
+	/* border: 2px solid white; */
+	padding-top: 10px;
 }
 
 nav a {
-    font-size: 30px;
-    color: white;
-    padding: 20px;
-    margin: 30px 50px;
-    text-decoration: none;
-    font-size: 35px;
-    font-weight: bold;
-    /* border: 2px solid white; */
-    /* background-color: rgb(205 205 205); */
-    /* box-shadow: 5px 5px 5px; */
-    display: inline;
-    font-family: 'Skranji', serif;
+	font-size: 30px;
+	color: white;
+	padding: 20px;
+	margin: 30px 50px;
+	text-decoration: none;
+	font-size: 35px;
+	font-weight: bold;
+	/* border: 2px solid white; */
+	/* background-color: rgb(205 205 205); */
+	/* box-shadow: 5px 5px 5px; */
+	display: inline;
+	font-family: 'Skranji', serif;
 }
 
-nav a:hover{
+nav a:hover {
 	background-color: rgb(175, 35, 35);
 	color: black;
 	transform: scale(1.05) translateY(-5px);
 	text-shadow: none;
 }
 
-#flou{
+#flou {
 	text-shadow: 3px 3px 3px;
 }
+
 
 /* Header */
 
 header {
-    background: url(ressources/viking.jpg) no-repeat;
-    border-bottom: 5px solid #a7a7a7;
-    line-height: 150%;
+	background: url(ressources/viking.jpg) no-repeat;
+	border-bottom: 5px solid #a7a7a7;
+	line-height: 150%;
 }
 
 .droite {
-    width: 50%;
-    margin-left: 5%;
-    padding-top: 30px;
-    padding-bottom: 40px;
-}
-.droitebas {
-    width: 50%;
-	margin-left: 40%;
-    padding-top: 30px;
-    padding-bottom: 40px;
-}
-header #logo{
-    width: 300px;
+	width: 50%;
+	margin-left: 5%;
+	padding-top: 30px;
+	padding-bottom: 40px;
 }
 
-#asso{
+.droitebas {
+	width: 50%;
+	margin-left: 40%;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+header #logo {
+	width: 300px;
+}
+
+#asso {
 	color: black;
 }
 
-#vikings{
-	text-shadow: 5px 5px 5px grey ;
+#vikings {
+	text-shadow: 5px 5px 5px grey;
+	line-height: 150%;
 }
 
 
 /* Les Membres */
 
-#membres{
+#membres {
 	background: url(ressources/fond5.jpg);
 	border-bottom: 5px solid #a7a7a7;
 }
 
-li{
-	list-style-type:none;
+li {
+	list-style-type: none;
 	height: 350px;
 	color: black;
-	background-color:#CA953E ;
-	font-size:80px;
+	background-color: #CA953E;
+	font-size: 80px;
 	width: 20%;
 	border: 5px solid white;
 	margin: 50px auto;
 	padding-top: 200px;
 }
 
-li p{
+li p {
 	font-size: 30px;
-    margin-top: 250px;
-    border-top: 3px solid white;
-    border-bottom: 3px solid white;border-top: 3px solid white;
-    background-color: #a7a7a7ec;
-    font-family: 'Playfair Display SC', serif;
+	margin-top: 250px;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+	border-top: 3px solid white;
+	background-color: #a7a7a7ec;
+	font-family: 'Playfair Display SC', serif;
 }
 
-ul{
+ul {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	padding: 0;
 }
 
-#membre1{
+#membre1 {
 	background: url(ressources/membre1.jpg) center;
 }
 
-#membre2{
+#membre2 {
 	background: url(ressources/membre2.jpg) center;
 }
 
-#membre3{
+#membre3 {
 	background: url(ressources/membre3.jpg) center;
 }
 
-#membre4{
+#membre4 {
 	background: url(ressources/membre4.jpg) center;
 }
 
-#membre5{
+#membre5 {
 	background: url(ressources/membre5.jpg) center;
 }
-#membre6{
+
+#membre6 {
 	background: url(ressources/membre6.jpg) center;
 }
 
-#membre7{
+#membre7 {
 	background: url(ressources/membre7.jpg) center;
 }
 
-#membre8{
+#membre8 {
 	background: url(ressources/membre8.jfif) center;
 }
-#membre9{
+
+#membre9 {
 	background: url(ressources/membre9.jpg) center;
 }
 
-#membre10{
+#membre10 {
 	background: url(ressources/membre10.jpg) center;
 }
 
-#membre11{
+#membre11 {
 	background: url(ressources/membre11.jpg) center;
 }
-#membre12{
+
+#membre12 {
 	background: url(ressources/membre12.jfif) center;
 }
 
 .rouge {
-    text-shadow: 5px 5px 5px #080808;
-    color: rgb(255 254 254);
-    font-weight: bold;
+	text-shadow: 5px 5px 5px #080808;
+	color: rgb(255 254 254);
+	font-weight: bold;
 }
+
 
 /* La relève */
 
-#releve{
+#releve {
 	background: url(ressources/fond6.jpg);
 	border-bottom: 5px solid #a7a7a7;
 }
 
-#photos{
-    display: flex;
+#photos {
+	display: flex;
 	justify-content: center;
 }
 
-#photos img{
-    width: 300px;
-    margin: 100px;
+#photos img {
+	width: 300px;
+	margin: 100px;
 	border: 5px solid #a7a7a7;
 }
 
 #photos img:hover {
-    outline: 20px solid black;
-    transform: scale(1.05) translateY(-20px);
+	outline: 20px solid black;
+	transform: scale(1.05) translateY(-20px);
 }
+
 
 /* Alcool */
 
-#alcool{
-    background: url(ressources/fond3.jfif);
-    border-bottom: 5px solid #a7a7a7;
+#alcool {
+	background: url(ressources/fond3.jfif);
+	border-bottom: 5px solid #a7a7a7;
 	line-height: 150%;
 }
 
-#gauche{
-    width: 50%;
-    margin-right: 40%;
+#gauche {
+	width: 50%;
+	margin-right: 40%;
 }
+
 
 /* Adhésion */
 
 #adhesion {
 	background: url(ressources/fond2.jpg) no-repeat;
-    height: 1200px;
-    line-height: 55px ;
+	height: 1200px;
+	line-height: 55px;
 }
 
 #envoyer {
-    font-size: 20px;
-    width: 50%;
-    margin: 30px 160px;
-    text-decoration: none;
-    border: 2px solid red;
-    border-radius: 10px;
-    background-color: #ffffff;
-    font-size: 26px;
-    cursor: pointer;
+	font-size: 20px;
+	width: 50%;
+	margin: 30px 160px;
+	text-decoration: none;
+	border: 2px solid red;
+	border-radius: 10px;
+	background-color: #ffffff;
+	font-size: 26px;
+	cursor: pointer;
 }
 
 form {
-    text-align: center;
-    /* padding-left: 0%; */
-    padding-top: 20px;
-    font-size: 35px;
-    font-weight: bold;
+	text-align: center;
+	/* padding-left: 0%; */
+	padding-top: 20px;
+	font-size: 35px;
+	font-weight: bold;
 }
 
-form input, textarea, select{
-	border-radius:10px;
-	border: 2px solid black;
-	text-align: center;
-	outline:none; 
-	font-size: 25px;
+form input, textarea, select {
+    border-radius: 16px;
+    border: 2px solid red;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
 }
 
 textarea {
@@ -275,13 +288,13 @@ textarea {
 }
 
 label {
-    color: white;
-    font-weight: bold;
-    /* text-decoration: underline; */
-    font-size: 20px;
+	color: white;
+	font-weight: bold;
+	/* text-decoration: underline; */
+	font-size: 20px;
 }
 
-.ouiNon{
+.ouiNon {
 	text-decoration: none;
 }
 
@@ -290,21 +303,35 @@ form p {
 }
 
 #myBtn {
-	display: none; /* Hidden by default */
-	position: fixed; /* Fixed/sticky position */
-	bottom: 20px; /* Place the button at the bottom of the page */
-	right: 30px; /* Place the button 30px from the right */
-	z-index: 99; /* Make sure it does not overlap */
-	border: none; /* Remove borders */
-	outline: none; /* Remove outline */
-	background-color: red; /* Set a background color */
-	color: white; /* Text color */
-	cursor: pointer; /* Add a mouse pointer on hover */
-	padding: 15px; /* Some padding */
-	border-radius: 10px; /* Rounded corners */
-	font-size: 16px; /* Increase font size */
-  }
-  
-  #myBtn:hover {
-	background-color: #555; /* Add a dark-grey background on hover */
-  }
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Fixed/sticky position */
+	bottom: 20px;
+	/* Place the button at the bottom of the page */
+	right: 30px;
+	/* Place the button 30px from the right */
+	z-index: 99;
+	/* Make sure it does not overlap */
+	border: none;
+	/* Remove borders */
+	outline: none;
+	/* Remove outline */
+	background-color: red;
+	/* Set a background color */
+	color: white;
+	/* Text color */
+	cursor: pointer;
+	/* Add a mouse pointer on hover */
+	padding: 15px;
+	/* Some padding */
+	border-radius: 10px;
+	/* Rounded corners */
+	font-size: 16px;
+	/* Increase font size */
+}
+
+#myBtn:hover {
+	background-color: #555;
+	/* Add a dark-grey background on hover */
+}

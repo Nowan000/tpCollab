@@ -83,7 +83,7 @@ send.addEventListener("click", e =>{
 
 mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
+// Lorsque l'utilisateur fait défiler vers le bas de 20 pixels à partir du haut du document, affichez le bouton
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -94,10 +94,10 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+// Lorsque l'utilisateur clique sur le bouton, faites défiler vers le haut du document
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.body.scrollTop = 0; // Pour Safari
+  document.documentElement.scrollTop = 0; // Pour Chrome, Firefox, IE and Opera
 }
 
 
