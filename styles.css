@@ -82,6 +82,7 @@ nav a:hover{
 header{
 	background: url(ressources/fond1.jpg) no-repeat;
 	border-bottom: 5px solid #a7a7a7;
+	line-height: 50px;
 }
 
 .droite{
@@ -216,6 +217,7 @@ ul{
 #alcool{
     background: url(ressources/fond3.jfif);
     border-bottom: 5px solid #a7a7a7;
+	line-height: 50px;
 }
 
 #gauche{
@@ -227,7 +229,7 @@ ul{
 
 #adhesion {
 	background: url(ressources/fond2.jpg) no-repeat;
-    height: 1000px;
+    height: 1200px;
     line-height: 55px ;
 }
 
