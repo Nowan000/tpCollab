@@ -217,6 +217,7 @@ ul{
 #alcool{
     background: url(ressources/fond3.jfif);
     border-bottom: 5px solid #a7a7a7;
+	line-height: 50px;
 }
 
 #gauche{
