@@ -22,12 +22,14 @@ body{
 
 h1{
     margin: 20px auto;
-    color: rgb(175, 35, 35);
-	background-color: #a7a7a7;
+    color: black;
     font-family: 'Playfair Display SC', serif;
-    border: 2px solid white ;
     padding: 10px;
-    width: 800px;
+    width: 60%;
+	margin: auto;
+	border: 5px solid black;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.301);
 }
 
 #logo{
@@ -39,50 +41,64 @@ p , label {
 
 /* Navigation */
 
-
 nav{
-	background-color: #a7a7a7c9;
-	z-index: 1000;
-	position: sticky;
-	top:20px;
-	right: 0;
-	left: 0;
-	border: 2px solid white;
-    margin: 20px;
+	margin-right: 60%;
 }
 
 nav a{
 	font-size: 30px;
-	color: white;
-	padding:  20px;
-	margin: 30px 50px;
+	color: black;
+	padding:  10px;
+	margin: 10px;
 	text-decoration: none;
-	font-size: 35px;
+	font-size: 20px;
     font-weight: bold;
-	border: 2px solid white ;
-	background-color: rgb(26, 25, 25);
-	box-shadow: 5px 5px 5px;
+	background-color: #a7a7a7;
+	box-shadow: 5px 5px 5px white;
 	display: inline-block;
     font-family: 'Playfair Display SC', serif;
 }
 
 nav a:hover{
-	background-color: rgb(175, 35, 35);
-	color: black;
-	transform: scale(1.05) translateY(-5px);
-	text-shadow: none;
-}
-
-#flou{
-	text-shadow: 3px 3px 3px;
+	background-color: black;
+	box-shadow: none;
+	text-decoration: underline;
+	color: white;
+	transform: scale(1.05) translateY(-5px);	
 }
 
 /* Header */
 
 header{
-	background: url(ressources/fond1.jpg) no-repeat;
+	background: url(ressources/fond4.jpg) no-repeat;
 	border-bottom: 5px solid #a7a7a7;
 	line-height: 50px;
+	height: 1080px;
+}
+
+header h1{
+	background-color: #a7a7a700;
+	border: none;
+	
+}
+
+header p{
+	color: black;
+	font-weight: bold;
+	padding: 20px;
+}
+
+.para{
+	width: 70%;
+	margin: 30px auto;
+	border: 5px solid black;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.301);
+}
+
+
+header #logo{
+    width: 400px;
 }
 
 .droite{
@@ -90,16 +106,13 @@ header{
     margin-left: 40%;
 }
 
-header #logo{
-    width: 300px;
-}
-
 #asso{
 	color: black;
 }
 
 #vikings{
-	text-shadow: 5px 5px 5px grey ;
+	text-shadow: 5px 5px 5px black ;
+	color: rgba(255, 255, 255, 0.74);
 }
 
 
@@ -110,6 +123,11 @@ header #logo{
 	border-bottom: 5px solid #a7a7a7;
 }
 
+#membres p{
+	color: black;
+	font-weight: bold;
+}
+
 li{
 	list-style-type:none;
 	height: 350px;
@@ -117,7 +135,8 @@ li{
 	background-color:#CA953E ;
 	font-size:80px;
 	width: 20%;
-	border: 5px solid white;
+	border: 5px solid black;
+	border-radius: 20px;
 	margin: 50px auto;
 	padding-top: 200px;
 }
@@ -125,8 +144,8 @@ li{
 li p{
 	font-size: 30px;
     margin-top: 250px;
-    border-top: 3px solid white;
-    border-bottom: 3px solid white;border-top: 3px solid white;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
     background-color: #a7a7a7ec;
     font-family: 'Playfair Display SC', serif;
 }
@@ -192,7 +211,7 @@ ul{
 /* La relève */
 
 #releve{
-	background: url(ressources/fond6.jpg);
+	background: url(ressources/fond5.jpg);
 	border-bottom: 5px solid #a7a7a7;
 }
 
@@ -204,25 +223,27 @@ ul{
 #photos img{
     width: 300px;
     margin: 100px;
-	border: 5px solid #a7a7a7;
+	border: 5px solid black;
+	
 }
 
 #photos img:hover {
-    outline: 20px solid black;
+    outline: 20px solid rgb(73, 73, 73);
     transform: scale(1.05) translateY(-20px);
 }
 
 /* Alcool */
 
 #alcool{
-    background: url(ressources/fond3.jfif);
+    background: url(ressources/fond3.jfif) no-repeat;
     border-bottom: 5px solid #a7a7a7;
 	line-height: 50px;
 }
 
 #gauche{
-    width: 50%;
+    width: 70%;
     margin-right: 40%;
+	margin: 30px;
 }
 
 /* Adhésion */
