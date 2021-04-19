@@ -25,7 +25,7 @@ h1{
     color: gold;
 	background-color: #a7a7a7;
     font-family: 'Playfair Display SC', serif;
-    border: 2px solid white ;
+    border: 2px solid lightblue ;
     padding: 10px;
     width: 800px;
 }
@@ -39,28 +39,27 @@ p , label {
 
 /* Navigation */
 
-
 nav{
 	display: flex;
 	z-index: 1000;
 	position: sticky;
-	top:10px;
+	top: 10px;
 	border: 1px;
-	border : 1px, solid, goldenrod;
+	border : 1px, solid, lightblue;
 }
 
 nav a{
 	align-items: flex-start;
 	font-size: 30px;
 	color: black;
-	padding:  10px;
-	margin: 15px 10px;
+	padding: 10px;
+	margin: 15px 5px;
 	text-decoration: none;
 	font-size: 35px;
     font-weight: bold;
-	border: 2px solid goldenrod;
+	border: 2px solid lightblue;
 	background-color: rgba(255, 255, 255, 0.5);
-	box-shadow: 2px 3px 5px goldenrod;
+	box-shadow: 2px 3px 5px lightblue;
     font-family: 'Playfair Display SC', serif;
 }
 
@@ -78,7 +77,7 @@ nav a:hover{
 
 header{
 	background: url(ressources/fond1.jpg) no-repeat;
-	border-bottom: 1px solid goldenrod;
+	border-bottom: 1px solid lightblue;
 	line-height: 50px;
 }
 
@@ -114,7 +113,7 @@ li{
 	background-color:#CA953E ;
 	font-size:80px;
 	width: 20%;
-	border: 5px solid white;
+	border: 5px solid lightblue;
 	margin: 50px auto;
 	padding-top: 200px;
 }
@@ -190,7 +189,7 @@ ul{
 
 #releve{
 	background: url(ressources/fond6.jpg);
-	border-bottom: 3px solid goldenrod;
+	border-bottom: 3px solid lightblue;
 }
 
 #photos{
@@ -201,11 +200,11 @@ ul{
 #photos img{
     width: 300px;
     margin: 100px;
-	border: 5px solid #a7a7a7;
+	border: 5px solid lightblue;
 }
 
 #photos img:hover {
-    outline: 20px solid black;
+    
     transform: scale(1.05) translateY(-20px);
 }
 
@@ -213,7 +212,7 @@ ul{
 
 #alcool{
     background: url(ressources/fond3.jfif);
-    border-bottom: 3px solid goldenrod;
+    border-bottom: 3px solid lightblue;
 	line-height: 50px;
 }
 
