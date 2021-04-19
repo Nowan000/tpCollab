@@ -78,7 +78,7 @@ send.addEventListener("click", e =>{
             + "Nom: " + lastName + "\n" 
             + "Prénom: " + firstName + "\n" 
             + "Mail: " + mail + "\n" 
-            + "Âge: " + age + "\n" 
+            + "Âge: " + age + " ans" + "\n" 
             + "Sexe: " + sex + "\n"
             + love + "\n"
             + alcLove + "\n"
