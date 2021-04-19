@@ -274,3 +274,7 @@ label{
 .ouiNon{
 	text-decoration: none;
 }
+
+form p {
+	font-size: 20px;
+}
