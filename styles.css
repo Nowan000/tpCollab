@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Spectral&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto+Slab:wght@100&family=Spectral&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 /* Général */
 
@@ -15,16 +17,16 @@ html{
 
 body{
 	text-align:center;
-	font-size: 25px;
+	font-size: 18px;
     background-color: black;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Montserrat', serif;
 }
 
 h1{
     margin: 20px auto;
     color: rgb(175, 35, 35);
 	background-color: #a7a7a7;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Skranji', serif;
     border: 2px solid white ;
     padding: 10px;
     width: 800px;
@@ -34,36 +36,36 @@ h1{
 	width: 200px;
 }
 p , label {
-    color: white;  
+    color: white;
+	  
 }
 
 /* Navigation */
 
 
-nav{
-	background-color: #a7a7a7c9;
-	z-index: 1000;
-	position: sticky;
-	top:20px;
-	right: 0;
-	left: 0;
-	border: 2px solid white;
-    margin: 20px;
+nav {
+    /* background-color: white; */
+    z-index: 1000;
+    position: static;
+    right: 0;
+    left: 0;
+    /* border: 2px solid white; */
+    padding-top: 10px;
 }
 
-nav a{
-	font-size: 30px;
-	color: white;
-	padding:  20px;
-	margin: 30px 50px;
-	text-decoration: none;
-	font-size: 35px;
+nav a {
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    margin: 30px 50px;
+    text-decoration: none;
+    font-size: 35px;
     font-weight: bold;
-	border: 2px solid white ;
-	background-color: rgb(26, 25, 25);
-	box-shadow: 5px 5px 5px;
-	display: inline-block;
-    font-family: 'Playfair Display SC', serif;
+    /* border: 2px solid white; */
+    /* background-color: rgb(205 205 205); */
+    /* box-shadow: 5px 5px 5px; */
+    display: inline;
+    font-family: 'Skranji', serif;
 }
 
 nav a:hover{
@@ -79,17 +81,24 @@ nav a:hover{
 
 /* Header */
 
-header{
-	background: url(ressources/fond1.jpg) no-repeat;
-	border-bottom: 5px solid #a7a7a7;
-	line-height: 50px;
+header {
+    background: url(ressources/viking.jpg) no-repeat;
+    border-bottom: 5px solid #a7a7a7;
+    line-height: 150%;
 }
 
-.droite{
+.droite {
     width: 50%;
-    margin-left: 40%;
+    margin-left: 5%;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
-
+.droitebas {
+    width: 50%;
+	margin-left: 40%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
 header #logo{
     width: 300px;
 }
@@ -183,10 +192,10 @@ ul{
 	background: url(ressources/membre12.jfif) center;
 }
 
-.rouge{
-	text-shadow: 5px 5px 5px grey ;
-	color: rgb(175, 35, 35);
-	font-weight: bold;
+.rouge {
+    text-shadow: 5px 5px 5px #080808;
+    color: rgb(255 254 254);
+    font-weight: bold;
 }
 
 /* La relève */
@@ -217,7 +226,7 @@ ul{
 #alcool{
     background: url(ressources/fond3.jfif);
     border-bottom: 5px solid #a7a7a7;
-	line-height: 50px;
+	line-height: 150%;
 }
 
 #gauche{
@@ -265,10 +274,11 @@ textarea {
 	width: 90%;
 }
 
-label{
-	color: black;
-	font-weight: bold;
-	text-decoration: underline;
+label {
+    color: black;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    font-size: 22px;
 }
 
 .ouiNon{
@@ -276,5 +286,25 @@ label{
 }
 
 form p {
-	font-size: 20px;
+	font-size: 16px;
 }
+
+#myBtn {
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: red; /* Set a background color */
+	color: white; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 15px; /* Some padding */
+	border-radius: 10px; /* Rounded corners */
+	font-size: 16px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+	background-color: #555; /* Add a dark-grey background on hover */
+  }

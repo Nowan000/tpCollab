@@ -7,6 +7,9 @@
     <meta name="language" content="FR">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <!-- My CSS-->
     <link rel="stylesheet" href="styles.css" />
      <!-- My JS-->
@@ -16,18 +19,17 @@
 		<link rel="icon" href="ressources/favicon.ico" type="image/x-icon">
 </head>
 <body id="presentation">
-    <!--Debut de la nav-->
-        <nav>
-            <a href="#presentation">Présentation</a>	
-            <a href="#membres">Membres</a>
-            <a href="#releve">La Relève</a>
-            <a href="#alcool"><span id="flou"> Alcool</span></a>
-            <a href="#adhesion">Adhésion</a>
-        </nav>
-    <!--Fin de la nav-->
-
     <!-- Debut du contenu "Notre but" -->
         <header><!-- Div liée au lien du menu + peu servir de cadre et englobe tout le contenu-->
+            <!--Debut de la nav-->
+                <nav>
+                    <a href="#presentation">Présentation</a>	
+                    <a href="#membres">Membres</a>
+                    <a href="#releve">La Relève</a>
+                    <a href="#alcool"><span id="flou"> Alcool</span></a>
+                    <a href="#adhesion">Adhésion</a>
+                </nav>
+            <!--Fin de la nav-->
             <div class="droite">
                 <img id="logo"  src="ressources/logo1.png" alt="logo de l'association Les vikings bourrés" />
                 <h1><span id="asso">Association</span>  <br> <span id="vikings">"Les Vikings Bourrés"</span> </h1>
@@ -37,6 +39,9 @@
                      <span class="rouge">"L'alcool est notre pire ennemi et le fuir serait lâche !"</span> <br> 
                      Afin de rejoindre le Vahalla, nous avons décidé de boire sans relâche pour qu'Odin nous sauve de la damnation.
                 </p>
+                <center>
+                    <img id="logo"  src="ressources/38242.gif" alt="Viking Bourrés" />
+                </center>
             </div>
         </header><!-- Fin div pourquoi-->
     <!-- Fin du contenu "Notre but"-->
@@ -133,7 +138,7 @@
 
     <!-- Debut du contenu "contacts" -->
         <div id="adhesion"> <!-- Div liée au lien du menu + peu servir de cadre et englobe tout le contenu-->
-            <div class="droite">
+            <div class="droitebas">
                 <img id="logo"  src="ressources/logo1.png" alt="logo de l'association Les vikings bourrés" />
                 <h1 >Formulaire d'adhésion</h1>
                 <form>
@@ -187,5 +192,7 @@
                 </div>
         </div>
     <!--Fin du contenu "contacts"-->
+    <!-- UP TO TOP-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><span style='font-size:30px;'>&#11014; </span>to the Vahalla</button>
 </body>
 </html>
