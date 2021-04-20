@@ -6,6 +6,25 @@
     src:url("fonts/Cardinal.ttf");
 }
 
+@font-face{
+    font-family:"perrygot"; 
+    src:url("fonts/PERRYGOT.TTF");
+}
+
+@font-face{
+    font-family:"perrygot"; 
+    src:url("fonts/Sketch\ Gothic\ School.ttf");
+}
+
+@font-face{
+    font-family:"amika"; 
+    src:url("fonts/Amika\ Blackletter\ Free\ Font.ttf");
+}
+@font-face{
+    font-family:"rok"; 
+    src:url("fonts/Ring\ of\ Kerry.otf");
+}
+
 /* Général */
 
 html,body{
@@ -21,27 +40,28 @@ html{
 body{
 	text-align:center;
 	font-size: 25px;
-    background-color: black;
-    font-family: 'Roboto Slab', serif;
+    background-color: black;  
 }
 
 h1{
     margin: 20px auto;
     color: black;
-    
+    font-family:"rok";
     padding: 10px;
     width: 60%;
 	margin: auto;
 	border: 5px solid black;
 	border-radius: 10px;
 	background-color: rgba(255, 255, 255, 0.301);
+	font-size: 30px;
 }
 
 #logo{
 	width: 200px;
 }
 p , label {
-    color: white;  
+    color: white;
+	font-family:"amika";   
 }
 
 /* Navigation */
