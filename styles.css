@@ -43,6 +43,8 @@ p , label {
 
 nav{
 	margin-right: 60%;
+	z-index: 1000;
+	position: fixed;
 }
 
 nav a{
@@ -57,6 +59,7 @@ nav a{
 	box-shadow: 5px 5px 5px white;
 	display: inline-block;
     font-family: 'Playfair Display SC', serif;
+	border: 2px solid black;
 }
 
 nav a:hover{
@@ -94,6 +97,7 @@ header p{
 	border: 5px solid black;
 	border-radius: 10px;
 	background-color: rgba(255, 255, 255, 0.301);
+	padding: 10px;
 }
 
 
