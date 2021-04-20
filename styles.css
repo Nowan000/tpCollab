@@ -76,7 +76,8 @@ nav a:hover{
 /* Header */
 
 header{
-	background: url(ressources/fond1.jpg) no-repeat;
+	background: left 10px url(ressources2/fond1.jpg) no-repeat;
+	background-size: 40%;
 	border-bottom: 1px solid lightblue;
 	line-height: 50px;
 }
@@ -102,8 +103,8 @@ header #logo{
 /* Les Membres */
 
 #membres{
-	background: url(ressources/fond5.jpg);
-	border-bottom: 5px solid #a7a7a7;
+	background: url(ressources2/fondMembre.jpg);
+	border-bottom: 1px solid #000000;
 }
 
 li{
@@ -188,7 +189,7 @@ ul{
 /* La relève */
 
 #releve{
-	background: url(ressources/fond6.jpg);
+	background: url(ressources2/fondMembre.jpg);
 	border-bottom: 3px solid lightblue;
 }
 
@@ -211,9 +212,10 @@ ul{
 /* Alcool */
 
 #alcool{
-    background: url(ressources/fond3.jfif);
+    background: right 5% top 50% url(ressources2/fond2.jpg) no-repeat;
     border-bottom: 3px solid lightblue;
 	line-height: 50px;
+	
 }
 
 #gauche{
