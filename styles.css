@@ -91,7 +91,7 @@ header{
 
 .droite{
     width: 50%;
-    margin-left: 40%;
+    margin-left: 45%;
 }
 
 header #logo{
@@ -255,9 +255,8 @@ ul{
 	width: 200px;
 	margin: 30px 100px;
 	text-decoration:none;
-	border: 2px solid black;
+	border: 2px solid lightskyblue;
 	border-radius:10px;
-	background-color: #a7a7a7;
 	font-size: 35px;
 	cursor: pointer;
 }
@@ -270,9 +269,29 @@ form{
 	font-weight: bold;
 }
 
+input {
+	-moz-appearance:textfield;
+}
+
+.align {
+	position: absolute;
+	left: 70%;
+}
+
+.sexeM {
+	position: absolute;
+	left : 68%;
+
+}
+.sexeF {
+	position: absolute;
+	left : 78%;
+
+}
+
 form input, textarea, select{
 	border-radius:10px;
-	border: 2px solid black;
+	border: 2px solid lightskyblue;
 	text-align: center;
 	outline:none; 
 	font-size: 25px;
@@ -283,7 +302,7 @@ textarea {
 }
 
 label{
-	color: black;
+	color: goldenrod;
 	font-weight: bold;
 	text-decoration: underline;
 }
