@@ -40,7 +40,8 @@ html{
 body{
 	text-align:center;
 	font-size: 25px;
-    background-color: black;  
+    background-color: black;
+	cursor: url(ressources/casque.ico) 2 2, pointer; 
 }
 
 h1{
@@ -61,8 +62,9 @@ h1{
 	width: 200px;
 }
 p , label {
-    color: white;
-	font-family:"amika";   
+    color: black;
+	font-family:"amika";
+	font-size: 30px;   
 }
 
 /* Navigation */
@@ -102,7 +104,7 @@ nav a:hover{
 header{
 	background: url(ressources/fond4.jpg) no-repeat;
 	border-bottom: 5px solid #a7a7a7;
-	line-height: 50px;
+	line-height: 42px;
 	height: 1080px;
 }
 
@@ -115,7 +117,9 @@ header h1{
 header p{
 	color: black;
 	font-weight: bold;
-	padding: 20px;
+	padding: 10px;
+	margin-bottom: 50px;
+	font-size: 30px;
 }
 
 .para{
@@ -176,10 +180,10 @@ li{
 
 li p{
 	font-size: 35px;
-    margin-top: 250px;
+    margin-top: 200px;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
-    background-color: #a7a7a7ec;
+    background-color: #a7a7a7cc;
     font-family: "cardinal";
 }
 
@@ -240,6 +244,7 @@ ul{
 	color: rgb(11, 68, 116);
 	font-family: "cardinal";
 	font-size: 35px;
+	text-shadow: 2px 2px 2px black ;
 }
 
 /* La relève */
@@ -298,6 +303,7 @@ ul{
 	background-color: #a7a7a7;
 	font-size: 35px;
 	cursor: pointer;
+	font-family: "cardinal";
 }
 
 form{
@@ -332,4 +338,5 @@ label{
 
 form p {
 	font-size: 20px;
+	color: white;
 }
