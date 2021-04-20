@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Spectral&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto+Slab:wght@100&family=Spectral&display=swap');
 
+@font-face{
+    font-family:"cardinal"; 
+    src:url("fonts/Cardinal.ttf");
+}
+
 /* Général */
 
 html,body{
@@ -23,7 +28,7 @@ body{
 h1{
     margin: 20px auto;
     color: black;
-    font-family: 'Playfair Display SC', serif;
+    
     padding: 10px;
     width: 60%;
 	margin: auto;
@@ -60,6 +65,7 @@ nav a{
 	display: inline-block;
     font-family: 'Playfair Display SC', serif;
 	border: 2px solid black;
+	font-family: "cardinal";
 }
 
 nav a:hover{
@@ -117,6 +123,8 @@ header #logo{
 #vikings{
 	text-shadow: 5px 5px 5px black ;
 	color: rgba(255, 255, 255, 0.74);
+	font-size: 70px;
+	font-family: "cardinal";
 }
 
 
@@ -207,9 +215,10 @@ ul{
 }
 
 .rouge{
-	text-shadow: 5px 5px 5px grey ;
+	text-shadow: 5px 5px 5px rgb(116, 116, 116) ;
 	color: rgb(175, 35, 35);
-	font-weight: bold;
+	font-family: "cardinal";
+	font-size: 35px;
 }
 
 /* La relève */
