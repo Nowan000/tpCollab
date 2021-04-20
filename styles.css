@@ -175,12 +175,12 @@ li{
 }
 
 li p{
-	font-size: 30px;
+	font-size: 35px;
     margin-top: 250px;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     background-color: #a7a7a7ec;
-    font-family: 'Playfair Display SC', serif;
+    font-family: "cardinal";
 }
 
 ul{
