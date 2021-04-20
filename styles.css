@@ -53,7 +53,7 @@ nav{
 }
 
 nav a{
-	font-size: 30px;
+	font-size: 40px;
 	color: black;
 	padding:  10px;
 	margin: 10px;
@@ -121,9 +121,9 @@ header #logo{
 }
 
 #vikings{
-	text-shadow: 5px 5px 5px black ;
-	color: rgba(255, 255, 255, 0.74);
-	font-size: 70px;
+	text-shadow: 2px 2px 2px black ;
+	color: rgb(11, 68, 116);
+	font-size: 55px;
 	font-family: "cardinal";
 }
 
@@ -214,9 +214,9 @@ ul{
 	background: url(ressources/membre12.jfif) center;
 }
 
-.rouge{
-	text-shadow: 5px 5px 5px rgb(116, 116, 116) ;
-	color: rgb(175, 35, 35);
+.bleu{
+	
+	color: rgb(11, 68, 116);
 	font-family: "cardinal";
 	font-size: 35px;
 }
