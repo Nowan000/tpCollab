@@ -1,5 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Spectral&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto+Slab:wght@100&family=Spectral&display=swap');
+@font-face { font-family: livingstone; 
+	src: url("fonts/livingstone_2/Livingstone.otf");
+}
+@font-face { font-family: quicksand; 
+	src: url("fonts/quicksand/Quicksand_Book.otf");
+}
+@font-face { font-family: quentin; 
+	src: url("fonts/quentin_2/Quentin.otf");
+}
 
 /* Général */
 
@@ -17,14 +24,14 @@ body{
 	text-align:center;
 	font-size: 25px;
     background-color: black;
-    font-family: 'Roboto Slab', serif;
+    font-family: quicksand, serif;
 }
 
 h1{
     margin: 20px auto;
     color: gold;
 	background-color: #a7a7a7;
-    font-family: 'Playfair Display SC', serif;
+    font-family: livingstone, serif;
     border: 2px solid lightblue ;
     padding: 10px;
     width: 800px;
@@ -180,7 +187,15 @@ ul{
 	background: url(ressources/membre12.jfif) center;
 }
 
-.rouge{
+#quote{
+	font-family: quentin, serif;
+	font-size: 38px;
+	text-shadow: 5px 5px 5px grey ;
+	color: goldenrod;
+	font-weight: bold;
+}
+
+.golden{
 	text-shadow: 5px 5px 5px grey ;
 	color: goldenrod;
 	font-weight: bold;
@@ -226,9 +241,13 @@ ul{
 /* Adhésion */
 
 #adhesion {
-	background: url(ressources/fond2.jpg) no-repeat;
+	background-image: url(ressources2/form.png), url(ressources2/fondMembre.jpg);
+	background-repeat: no-repeat;
+	background-size: 960px, auto;
+	background-position: left;
     height: 1200px;
     line-height: 55px ;
+	z-index: 100;
 }
 
 #envoyer{
