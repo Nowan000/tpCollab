@@ -91,6 +91,22 @@ nav a{
 	font-family: "cardinal";
 }
 
+button{
+		font-size: 40px;
+		color: black;
+		padding:  10px;
+		margin: 10px;
+		text-decoration: none;
+		font-size: 20px;
+		font-weight: bold;
+		background-color: #a7a7a7;
+		box-shadow: 5px 5px 5px white;
+		display: inline-block;
+		font-family: 'Playfair Display SC', serif;
+		border: 2px solid black;
+		font-family: "cardinal";
+}
+
 nav a:hover{
 	background-color: black;
 	box-shadow: none;
